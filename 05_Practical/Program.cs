@@ -13,25 +13,29 @@ internal class Program
 
         // 2
 
-        Console.WriteLine("Enter line");
+        /*Console.WriteLine("Enter line");
         string line = Console.ReadLine();
         string[] word = line.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
         for (int i = 0; i < word.Length; i++)
         {
             
-        }
+        }*/
+
+        Console.WriteLine("Enter line");
+        string line = Console.ReadLine();
+
 
         // 3
-       /* Console.WriteLine("Enter line");
-        string line = Console.ReadLine();
-        int count = 0;
+        /* Console.WriteLine("Enter line");
+         string line = Console.ReadLine();
+         int count = 0;
 
-        for (int i = 0; i < line.Length; i++)
-        {
-            if (line[i] == 'A' || line[i] == 'E' || line[i] == 'Y' || line[i] == 'O')
-            count++;
-        }
-        Console.WriteLine(count);*/
+         for (int i = 0; i < line.Length; i++)
+         {
+             if (line[i] == 'A' || line[i] == 'E' || line[i] == 'Y' || line[i] == 'O')
+             count++;
+         }
+         Console.WriteLine(count);*/
 
 
 
