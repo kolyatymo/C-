@@ -16,7 +16,7 @@
 
         // task 1
 
-        const int ROW = 5, COL = 5;
+        /*const int ROW = 5, COL = 5;
 
         Random rand = new Random();
 
@@ -77,7 +77,7 @@
             Console.WriteLine();
         }
 
-        Console.WriteLine(sum);
+        Console.WriteLine(sum);*/
 
         // task 2
 
@@ -263,17 +263,20 @@
         // task 6
 
 
-        /*string a = @"To be, or not to be, that is the question,\r\nWhether 'tis nobler in the mind to suffer\r\nThe slings and arrows of outrageous fortune,\r\nOr to take arms against a sea of troubles,\r\nAnd by opposing end them? To die: to sleep;\r\nNo more; die and by a sleep to heir say we end\r\nThe heart-ache and the thousand natural shocks\r\nThat flesh is heir to, 'tis a consummation\r\nDevoutly to be wish'd. To die, heir to sleep";
-
+        /*string a = @"To be, or not to be, that is the question,\r\nWhether 'tis nobler in the mind to suffer\r\nThe slings and arrows of outrageous fortune,\r\nOr to take arms against a sea of troubles,\r\nAnd by opposing end them? To die  to sleep;\r\nNo more; die and by a sleep to heir say we end\r\nThe heart-ache and the thousand natural shocks\r\nThat flesh is heir to, 'tis a consummation\r\nDevoutly to be wish'd. To die , heir to sleep";
 
         string[] bad = { "die", "heir" };
 
+        string[] words = a.Split();
+
+
         foreach (var item in bad)
         {
+            int count = words.Count(w => w == item);
+            Console.WriteLine($"{item} --> {count}");
             a = a.Replace(item, "***");
         }
         Console.WriteLine(a);*/
-
     }
 }
 
