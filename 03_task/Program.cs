@@ -58,18 +58,32 @@
             }
         }
 
+        if (minI > maxI)
+        {
+            int temp = minI;
+            minI = maxI;
+            maxI = temp;
+        }
+        
+        if (minJ > maxJ)
+        {
+            int temp = minJ;
+            minJ = maxJ;
+            maxJ = temp;
+        }
+
         int sum = 0;
 
         int n = minJ;
         for (int i = minI; i <= maxI; i++)
         {
-            for (; n < maxJ; n++)
+            for (; n < arr.GetLength(1); n++)
             {
                 sum += arr[i,n];
-                if (n == maxI || n == maxJ)
-                    break;
-                n = 0;
             }
+            if (i == maxI && n == maxJ)
+                break;
+            n = 0;
         }
 
         for (int i = 0; i < ROW; i++)
@@ -81,7 +95,70 @@
             Console.WriteLine();
         }
 
-        Console.WriteLine(sum);
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"sume --> {sum}");
+        Console.ResetColor();
+
+
+        // variant numb (2) ------------------------------
+
+        /*Print(arr);
+
+       int row = arr.GetLength(0);
+       int col = arr.GetLength(1);
+
+
+       int[] arr2 = new int[row * col];
+       int index = 0;
+
+       for (int i = 0; i < arr.GetLength(0); i++)
+       {
+           for (int j = 0; j < arr.GetLength(1); j++)
+           {
+               arr2[index++] = arr[i, j];
+           }
+       }
+
+       int min = arr[0, 0];
+       int max = arr[0, 0];
+       int minIn = 0;
+       int maxIn = 0;
+
+       for (int i = 0; i < arr2.Length; i++)
+       {
+           if (arr2[i] < min)
+           {
+               min = arr2[i];
+               minIn = i;
+           }
+
+           if (arr2[i] > max)
+           {
+               max = arr2[i];
+               maxIn = i;
+           }
+       }
+
+       int sum = 0;
+
+       if(minIn > maxIn)
+       {
+           int temp = minIn;
+           minIn = maxIn;
+           maxIn = temp;
+       }
+
+       for (int i = minIn; i <= maxIn; i++)
+       {
+           sum += arr2[i];
+       }
+
+       Console.ForegroundColor = ConsoleColor.Green;
+       Console.WriteLine($"sume --> {sum}");
+       Console.ResetColor();*/
+
+
+
 
         // task 2
 
