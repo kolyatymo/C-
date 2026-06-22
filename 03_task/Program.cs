@@ -16,7 +16,7 @@
 
         // task 1
 
-        /*const int ROW = 5, COL = 5;
+        const int ROW = 5, COL = 5;
 
         Random rand = new Random();
 
@@ -60,11 +60,15 @@
 
         int sum = 0;
 
-        for (int i = minI; i < maxI; i++)
+        int n = minJ;
+        for (int i = minI; i <= maxI; i++)
         {
-            for (int j = minJ; j < maxJ; j++)
+            for (; n < maxJ; n++)
             {
-                sum += arr[i,j];
+                sum += arr[i,n];
+                if (n == maxI || n == maxJ)
+                    break;
+                n = 0;
             }
         }
 
@@ -77,7 +81,7 @@
             Console.WriteLine();
         }
 
-        Console.WriteLine(sum);*/
+        Console.WriteLine(sum);
 
         // task 2
 
@@ -272,7 +276,7 @@
 
         foreach (var item in bad)
         {
-            int count = words.Count(w => w == item);
+            int count = words.Count(n => n == item);
             Console.WriteLine($"{item} --> {count}");
             a = a.Replace(item, "***");
         }
@@ -280,9 +284,3 @@
     }
 }
 
-
-
-
-/*Дано двовимірний масив розмірністю 5×5, заповнений випадковими
-числами з діапазону від -100 до 100. Визначити суму елементів масиву,
-розташованих між мінімальним і максимальним елементами.*/
