@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _13_Inheritance
+{
+    abstract class Device
+    {
+        protected string brand;
+        public string Brand 
+        {
+            get => brand; 
+            set => brand = value ?? "Nobrand"; 
+        }
+        private int year;
+
+        public int Year 
+        { 
+            get => year;
+            set => year = value <= DateTime.Today.Year ? value : throw new Exception("Bad year of device"); 
+        }
+
+        public Device(string brand = "NoBrand", int year = 2020)
+        {
+            Brand = brand;
+            Year = year;
+        }
+
+        //public virtual bool HasBattery { get => false; }
+        public abstract bool HasBattery { get; } // якщо клас abstranc можна використовувати fbstract методи
+
+        internal int Price { get; set; }
+        protected internal int Weight { get; set; }
+
+        public override string ToString()
+        {
+            return $"Device : {this.GetType().Name, -10} Brand : {brand,-15} Year : {year, -10} Has Battery : {HasBattery, -10}\nPrice : {Price, -10} Weigth : {Weight, - 10}";
+        }
+
+    }
+}
