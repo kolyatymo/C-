@@ -29,27 +29,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_practical", "08_practica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_task", "04_task\04_task.csproj", "{D59B40C1-C4FA-4BF4-A543-F9E35CC65217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Nullable & null operators", "09_Nullable & null operators\09_Nullable & null operators.csproj", "{F64EA2D8-F839-4CFB-B204-F864F5CA471E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Nullable & null operators", "09_Nullable & null operators\09_Nullable & null operators.csproj", "{F64EA2D8-F839-4CFB-B204-F864F5CA471E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Overload operators", "10_Overload operators\10_Overload operators.csproj", "{DFD45FFE-DB17-45B8-8577-81EC219BA873}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Overload operators", "10_Overload operators\10_Overload operators.csproj", "{DFD45FFE-DB17-45B8-8577-81EC219BA873}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_task", "03_task\03_task.csproj", "{25ED97DD-7581-432D-A4A1-1AB90B5EDE61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_task", "03_task\03_task.csproj", "{25ED97DD-7581-432D-A4A1-1AB90B5EDE61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Indexers", "11_Indexers\11_Indexers.csproj", "{3C4C85D4-CA17-470B-8653-296B29DF9411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Indexers", "11_Indexers\11_Indexers.csproj", "{3C4C85D4-CA17-470B-8653-296B29DF9411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_boxing & unboxing", "12_boxing & unboxing\12_boxing & unboxing.csproj", "{5CD0C716-3A5B-4BAE-835C-EBDF2F0A4423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_boxing & unboxing", "12_boxing & unboxing\12_boxing & unboxing.csproj", "{5CD0C716-3A5B-4BAE-835C-EBDF2F0A4423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Inheritance", "13_Inheritance\13_Inheritance.csproj", "{A574E5D0-0206-4239-AC35-2A6E98DB5391}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Inheritance", "13_Inheritance\13_Inheritance.csproj", "{A574E5D0-0206-4239-AC35-2A6E98DB5391}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_task", "06_task\06_task.csproj", "{E68B293E-3AEC-430F-A0A1-4B5D732C01A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_task", "06_task\06_task.csproj", "{E68B293E-3AEC-430F-A0A1-4B5D732C01A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_task", "05_task\05_task.csproj", "{3743D179-7BE1-4B53-8071-E89300465A3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_task", "05_task\05_task.csproj", "{3743D179-7BE1-4B53-8071-E89300465A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Exeption", "14_Exeption\14_Exeption.csproj", "{FEE3B5DD-3DEF-41A2-99F2-38300480C00A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Exeption", "14_Exeption\14_Exeption.csproj", "{FEE3B5DD-3DEF-41A2-99F2-38300480C00A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_practical", "14_practical\14_practical.csproj", "{92B99E92-3040-4E81-9091-67C4903B3D01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_practical", "14_practical\14_practical.csproj", "{92B99E92-3040-4E81-9091-67C4903B3D01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_task", "07_task\07_task.csproj", "{41F591DA-983D-4C30-84B9-41060FB216FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_task", "07_task\07_task.csproj", "{41F591DA-983D-4C30-84B9-41060FB216FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Interface", "15_Interface\15_Interface.csproj", "{7778CE69-996B-4038-90BC-E41283CA92B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_ICloneable", "16_ICloneable\16_ICloneable.csproj", "{971F37E8-9D3E-4598-953C-D48D481CE96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_IEnumerable", "17_IEnumerable\17_IEnumerable.csproj", "{E4538024-2420-4689-B9C1-47B555126811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_practical", "17_practical\17_practical.csproj", "{19671ED4-60C8-403E-9DF8-64975CDB68CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +161,22 @@ Global
 		{41F591DA-983D-4C30-84B9-41060FB216FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F591DA-983D-4C30-84B9-41060FB216FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F591DA-983D-4C30-84B9-41060FB216FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7778CE69-996B-4038-90BC-E41283CA92B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7778CE69-996B-4038-90BC-E41283CA92B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7778CE69-996B-4038-90BC-E41283CA92B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7778CE69-996B-4038-90BC-E41283CA92B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{971F37E8-9D3E-4598-953C-D48D481CE96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971F37E8-9D3E-4598-953C-D48D481CE96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971F37E8-9D3E-4598-953C-D48D481CE96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971F37E8-9D3E-4598-953C-D48D481CE96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4538024-2420-4689-B9C1-47B555126811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4538024-2420-4689-B9C1-47B555126811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4538024-2420-4689-B9C1-47B555126811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4538024-2420-4689-B9C1-47B555126811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19671ED4-60C8-403E-9DF8-64975CDB68CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19671ED4-60C8-403E-9DF8-64975CDB68CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19671ED4-60C8-403E-9DF8-64975CDB68CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19671ED4-60C8-403E-9DF8-64975CDB68CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
