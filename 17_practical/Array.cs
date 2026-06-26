@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _17_practical
 {
-    internal class Array : IOutput, IMath
+    internal class MyArray : IOutput, IMath
     {
         private int[] arr;
 
-        public Array(int[] numb)
+        public MyArray(int[] numb)
         {
             arr = numb;
         }
