@@ -36,10 +36,19 @@ internal class Program
     {
         Calculator calc = new Calculator();
 
+        Console.ForegroundColor = ConsoleColor.Green;
+
         calc.setOperation(Operation.Plus);
-        Console.WriteLine($"Plus --> 10 + 5 = {calc.calculator(10, 5)}"); 
+        Console.WriteLine($"Plus --> 10 + 5 = {calc.calculator(10, 5)}");
+
+        Console.ForegroundColor = ConsoleColor.Magenta;
 
         calc.setOperation(Operation.Mult);
         Console.WriteLine(calc.calculator(10, 5)); 
+
+        calc.setOperation(Operation.Div);
+
+        Console.ResetColor();
+        
     }
 }

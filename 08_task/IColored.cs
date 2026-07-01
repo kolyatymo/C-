@@ -9,6 +9,6 @@ namespace _08_task
 {
     internal interface IColored
     {
-        Color color { get; set; }
+        ConsoleColor color { get; set; }
     }
 }
