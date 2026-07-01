@@ -22,16 +22,16 @@ namespace _26_practical
 
         public void Finish(string desc)
         {
-            Console.WriteLine($"{Name}: {desc}");
+            Console.WriteLine($"{Name} --> {desc}");
         }
 
         public void Start(string desc)
         {
-            Console.WriteLine($"{Name}: {desc}");
+            Console.WriteLine($"{Name} --> {desc}");
         }
         public void Position(string desc)
         {
-            Console.WriteLine($"{Name}: {desc}");
+            Console.WriteLine($"{Name} --> {desc}");
         }
 
         public void GetFinish()
