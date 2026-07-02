@@ -6,19 +6,24 @@ using System.Threading.Tasks;
 
 namespace _09_task
 {
-    internal class CD : IRemovebleDisk
+    internal class CD : Disk, IRemovebleDisk
     {
         bool hasDisk;
-        public bool HadDisk { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool HadDisk { get => hasDisk; }
 
+        public override string GetName()
+        {
+            return "CD";
+        }
         public void Insert()
         {
-            throw new NotImplementedException();
+            hasDisk = true;
+
         }
 
         public void Reject()
         {
-            throw new NotImplementedException();
+            hasDisk = false;
         }
     }
 }

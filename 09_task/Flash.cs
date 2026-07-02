@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace _09_task
 {
-    internal class Flash : IRemovebleDisk
+    internal class Flash : Disk, IRemovebleDisk
     {
         bool hasDisk;
-        public bool HadDisk { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
+        public bool HadDisk { get => hasDisk; }
+        public override string GetName()
+        {
+            return "Flash";
+        }
         public void Insert()
         {
-            throw new NotImplementedException();
+            hasDisk = true;
         }
 
         public void Reject()
         {
-            throw new NotImplementedException();
+            hasDisk = false;
         }
     }
 }

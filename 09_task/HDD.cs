@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace _09_task
 {
-    internal class HDD
+    internal class HDD : Disk
     {
-        string GetName()
+        public override string GetName()
         {
-            return "f";
+            return "HDD";
         }
     }
 }

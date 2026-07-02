@@ -16,12 +16,12 @@ namespace _08_task
 
         public override int Area()
         {
-            return 1/2 * (A * Heigth);
+            return (A * Heigth) / 2;
         }
 
         public override int Perimeter()
         {
-            return A * B * C;
+            return A + B + C;
         }
 
         public override void Print()
@@ -31,8 +31,14 @@ namespace _08_task
             Console.ForegroundColor = color;
             for (int i = 0; i < Heigth; i++)
             {
-                
+                Console.SetCursorPosition(X, Y + i);
+
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write(s);
+                }
             }
+            Console.ResetColor();
 
         }
 

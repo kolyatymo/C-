@@ -19,8 +19,8 @@ namespace _09_task
 
         public string Memory 
         { 
-            get => Memory;
-            set => Memory = value; 
+            get => memory;
+            set => memory = value; 
         }
 
         public Disk(){}
@@ -31,18 +31,18 @@ namespace _09_task
             MemSize = memSize;
         }
 
-        public string GetName()
+        public virtual string GetName()
         {
-            return "f";
+            return "Disk";
         }
         public string Read()
         {
-            throw new NotImplementedException();
+            return Memory;
         }
 
         public void Write(string text)
         {
-            throw new NotImplementedException();
+            Memory = text;
         }
     }
 }

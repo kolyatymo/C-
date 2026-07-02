@@ -29,6 +29,12 @@ internal class Program
         Console.WriteLine();
         Console.WriteLine();
 
+        Trianglee tri = new Trianglee();
+        tri.Heigth = 5;
+        tri.Move(9, 9);
+        tri.color = ConsoleColor.Yellow;
+        tri.Print();
+
 
 
     }

@@ -8,7 +8,7 @@ namespace _09_task
 {
     internal interface IRemovebleDisk
     {
-        bool HadDisk { get; set; }
+        bool HadDisk { get; }
 
         void Insert();
         void Reject();
