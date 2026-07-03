@@ -51,39 +51,43 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_practical", "14_practica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_task", "07_task\07_task.csproj", "{41F591DA-983D-4C30-84B9-41060FB216FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Interface", "15_Interface\15_Interface.csproj", "{7778CE69-996B-4038-90BC-E41283CA92B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Interface", "15_Interface\15_Interface.csproj", "{7778CE69-996B-4038-90BC-E41283CA92B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_ICloneable", "16_ICloneable\16_ICloneable.csproj", "{971F37E8-9D3E-4598-953C-D48D481CE96C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_ICloneable", "16_ICloneable\16_ICloneable.csproj", "{971F37E8-9D3E-4598-953C-D48D481CE96C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_IEnumerable", "17_IEnumerable\17_IEnumerable.csproj", "{E4538024-2420-4689-B9C1-47B555126811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_IEnumerable", "17_IEnumerable\17_IEnumerable.csproj", "{E4538024-2420-4689-B9C1-47B555126811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_practical", "17_practical\17_practical.csproj", "{19671ED4-60C8-403E-9DF8-64975CDB68CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_practical", "17_practical\17_practical.csproj", "{19671ED4-60C8-403E-9DF8-64975CDB68CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_task", "08_task\08_task.csproj", "{C4588F24-FC31-405E-BF6D-B17CC33D52DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_task", "08_task\08_task.csproj", "{C4588F24-FC31-405E-BF6D-B17CC33D52DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_Enum_demo", "18_struct & enum\18_Enum_demo.csproj", "{E3C21475-51D4-4486-90C9-BC328783B612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_Enum_demo", "18_struct & enum\18_Enum_demo.csproj", "{E3C21475-51D4-4486-90C9-BC328783B612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_Extension methods", "19_Extension methods\19_Extension methods.csproj", "{C6ED34AC-9A50-455B-B423-BD6D86DD88DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_Extension methods", "19_Extension methods\19_Extension methods.csproj", "{C6ED34AC-9A50-455B-B423-BD6D86DD88DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_Struct", "Struct\20_Struct.csproj", "{A53FCDA1-116C-4006-BB20-7D252006F2D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_Struct", "Struct\20_Struct.csproj", "{A53FCDA1-116C-4006-BB20-7D252006F2D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_practical", "20_practical\20_practical.csproj", "{3AB54196-E122-4887-A5ED-F3363C6144A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_practical", "20_practical\20_practical.csproj", "{3AB54196-E122-4887-A5ED-F3363C6144A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_task", "09_task\09_task.csproj", "{0320DB9D-A507-46C9-84EF-94961B81FD51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_task", "09_task\09_task.csproj", "{0320DB9D-A507-46C9-84EF-94961B81FD51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_Delegate", "21_Delegate\21_Delegate.csproj", "{1A5279FE-F10E-4760-89F7-3D0A06C66B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_Delegate", "21_Delegate\21_Delegate.csproj", "{1A5279FE-F10E-4760-89F7-3D0A06C66B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_Delegate as params", "22_Delegate as params\22_Delegate as params.csproj", "{BD68316F-EA93-444F-B075-91B9529B52E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_Delegate as params", "22_Delegate as params\22_Delegate as params.csproj", "{BD68316F-EA93-444F-B075-91B9529B52E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_std_Delegate", "23_std_Delegate\23_std_Delegate.csproj", "{F1C067FB-79B0-4AF3-BA4D-6112A6C6F190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_std_Delegate", "23_std_Delegate\23_std_Delegate.csproj", "{F1C067FB-79B0-4AF3-BA4D-6112A6C6F190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_practical", "23_practical\23_practical.csproj", "{00A9230C-8995-4A41-93E3-950932B7E044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "23_practical", "23_practical\23_practical.csproj", "{00A9230C-8995-4A41-93E3-950932B7E044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_Events", "Events\25_Events.csproj", "{FB297D4D-3588-4CC4-BD06-3275E64E26DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25_Events", "Events\25_Events.csproj", "{FB297D4D-3588-4CC4-BD06-3275E64E26DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_EventHandler", "26_EventHandler\26_EventHandler.csproj", "{DC735F4B-CEAF-4C19-9E85-375AAE5060BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_EventHandler", "26_EventHandler\26_EventHandler.csproj", "{DC735F4B-CEAF-4C19-9E85-375AAE5060BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_practical", "26_practical\26_practical.csproj", "{F25C8385-E9F1-4F0A-AA29-69E74BB69831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_practical", "26_practical\26_practical.csproj", "{F25C8385-E9F1-4F0A-AA29-69E74BB69831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_task", "10_task\10_task.csproj", "{C0A4984A-A08D-4299-85A9-FD6E3C4F252E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_task", "11_task\11_task.csproj", "{B1526E8A-207B-4AA3-83DB-FE66A8017E05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +259,14 @@ Global
 		{F25C8385-E9F1-4F0A-AA29-69E74BB69831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F25C8385-E9F1-4F0A-AA29-69E74BB69831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F25C8385-E9F1-4F0A-AA29-69E74BB69831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A4984A-A08D-4299-85A9-FD6E3C4F252E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A4984A-A08D-4299-85A9-FD6E3C4F252E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A4984A-A08D-4299-85A9-FD6E3C4F252E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A4984A-A08D-4299-85A9-FD6E3C4F252E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1526E8A-207B-4AA3-83DB-FE66A8017E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1526E8A-207B-4AA3-83DB-FE66A8017E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1526E8A-207B-4AA3-83DB-FE66A8017E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1526E8A-207B-4AA3-83DB-FE66A8017E05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
