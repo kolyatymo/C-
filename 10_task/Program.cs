@@ -20,7 +20,5 @@ internal class Program
 
         task.Print(6, ConsoleColor.Red, '*');
 
-        
-
     }
 }
