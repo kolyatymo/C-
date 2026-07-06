@@ -33,7 +33,7 @@ internal class Program
         int a = 1;
         foreach (var item in words)
         {
-            Console.WriteLine($"{a, -20}Count --> {item.Value,-20} word --> {item.Key}");
+            Console.WriteLine($"{a, -20}word --> {item.Key,-20} Count --> {item.Value}");
             a++;
         }
         Console.WriteLine($"total words --> {TotalWords, -5} unique words --> {words.Count, -10}");  
