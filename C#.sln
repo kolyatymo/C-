@@ -85,25 +85,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_EventHandler", "26_Event
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "26_practical", "26_practical\26_practical.csproj", "{F25C8385-E9F1-4F0A-AA29-69E74BB69831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_task", "10_task\10_task.csproj", "{C0A4984A-A08D-4299-85A9-FD6E3C4F252E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_task", "10_task\10_task.csproj", "{C0A4984A-A08D-4299-85A9-FD6E3C4F252E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_task", "11_task\11_task.csproj", "{B1526E8A-207B-4AA3-83DB-FE66A8017E05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_task", "11_task\11_task.csproj", "{B1526E8A-207B-4AA3-83DB-FE66A8017E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27_Generics", "27_Generics\27_Generics.csproj", "{DA4B1EDE-6A6F-49E6-B89F-A4003D5308D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27_Generics", "27_Generics\27_Generics.csproj", "{DA4B1EDE-6A6F-49E6-B89F-A4003D5308D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28_Generic - Stack", "28_Generic - Stack\28_Generic - Stack.csproj", "{E0792A15-C48D-4BDE-8864-2F072343E3A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28_Generic - Stack", "28_Generic - Stack\28_Generic - Stack.csproj", "{E0792A15-C48D-4BDE-8864-2F072343E3A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_Collection - ArrayList & List", "29_Collection - ArrayList & List\29_Collection - ArrayList & List.csproj", "{6A1A2EFC-FB6B-4CD1-9C8E-8BB51E178B85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_Collection - ArrayList & List", "29_Collection - ArrayList & List\29_Collection - ArrayList & List.csproj", "{6A1A2EFC-FB6B-4CD1-9C8E-8BB51E178B85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_practical", "29_practical\29_practical.csproj", "{72ECBD09-A4EB-41EB-B83A-756650F59818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29_practical", "29_practical\29_practical.csproj", "{72ECBD09-A4EB-41EB-B83A-756650F59818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testC#", "testC#\testC#.csproj", "{B3A1A37C-7DB8-44E9-B7C5-EE386AB7ABB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testC#", "testC#\testC#.csproj", "{B3A1A37C-7DB8-44E9-B7C5-EE386AB7ABB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30_sts_collection", "30_sts_collection\30_sts_collection.csproj", "{AC9405DF-DFF1-4C89-B0EA-B8D327017C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30_sts_collection", "30_sts_collection\30_sts_collection.csproj", "{AC9405DF-DFF1-4C89-B0EA-B8D327017C40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_Dictionary_SortedDictionary", "31_Dictionary_SortedDictionary\31_Dictionary_SortedDictionary.csproj", "{0D0EE84B-BCEB-4366-865D-876B2F81D660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_Dictionary_SortedDictionary", "31_Dictionary_SortedDictionary\31_Dictionary_SortedDictionary.csproj", "{0D0EE84B-BCEB-4366-865D-876B2F81D660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31_practical", "31_practical\31_practical.csproj", "{15BCD5E7-81F7-4304-8CC2-BC9BBAE6DB38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_practical", "31_practical\31_practical.csproj", "{15BCD5E7-81F7-4304-8CC2-BC9BBAE6DB38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_task", "12_task\12_task.csproj", "{CE0110CD-7D75-41D4-9557-C3FDB557BE9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -315,6 +317,10 @@ Global
 		{15BCD5E7-81F7-4304-8CC2-BC9BBAE6DB38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15BCD5E7-81F7-4304-8CC2-BC9BBAE6DB38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15BCD5E7-81F7-4304-8CC2-BC9BBAE6DB38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0110CD-7D75-41D4-9557-C3FDB557BE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0110CD-7D75-41D4-9557-C3FDB557BE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0110CD-7D75-41D4-9557-C3FDB557BE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0110CD-7D75-41D4-9557-C3FDB557BE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
