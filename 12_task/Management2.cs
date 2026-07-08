@@ -43,12 +43,14 @@ namespace _12_task
             {
                 case 1:
                     {
+                        Print();
                         RemoveLogin();
                         AddTomanagement();
                         break;
                     }
                 case 2:
                     {
+                        Print();
                         Console.WriteLine("Enter login where you want to change the password");
                         string login = Console.ReadLine();
                         foreach (var item in management)
@@ -57,26 +59,13 @@ namespace _12_task
                             {
                                 Console.WriteLine("Enter new pasword");
                                 string password = Console.ReadLine();
-                                /*item.Value = password;*/
+                                management[login] = password;
                             }
                         }
                         break;
                     }
 
             }
-            /*Console.WriteLine("Enter the login and password you want to change");
-            Console.WriteLine("Enetr Login");
-            //string login = Console.ReadLine();
-            Console.WriteLine("Enetr PAsword");
-            string pasword = Console.ReadLine();
-            management.Remove(login);*/
-
-            /*Console.WriteLine("Eneter new login and pasword");
-            Console.WriteLine("Enetr Login");
-            string log = Console.ReadLine();
-            Console.WriteLine("Enetr PAsword");
-            string pas = Console.ReadLine();
-            management.Add(log, pas);*/
         }
 
         public void PrintInfo(string login)
