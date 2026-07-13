@@ -1,18 +1,82 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        File.WriteAllText("A.txt", "hi");
+        Console.Write("Enetr name file --> ");
+        string fname = Console.ReadLine();
+        Console.WriteLine($"Enter text to the file {fname}");
+        var text = Console.ReadLine();
 
-        CopyFile("A.txt", "CopyA.txt");
+        Console.Write("Enter name folder --> ");
+        string foname = Console.ReadLine();
 
-        MoveFile("CopyA.txt", "MovedA.txt");
+        Directory.CreateDirectory(foname);
 
-        Directory.CreateDirectory("A1");
 
-        CopyFolder("A1", "CopyFolder");
-
-        MoveFolder("CopyFolder", "MovedFolder");
+        Console.WriteLine("Enter (1) for file operations\nEnter (2) for folder operations");
+        int i = int.Parse(Console.ReadLine());
+        if (i != 1 && i != 2)
+        {
+            Console.WriteLine("Bye!!!");
+        }
+        else
+        {
+            switch (i)
+            {
+                case 1:
+                    Console.WriteLine("Enter (1) --> CopyFile\nEnter (2) --> MoveFile");
+                    int f = int.Parse(Console.ReadLine());
+                    if (i != 1 && i != 2)
+                    {
+                        Console.WriteLine("error");
+                        break;
+                    }
+                    else
+                    {
+                        switch(f)
+                        {
+                            case 1:
+                                Console.Write("Enetr name new file --> ");
+                                string fnamecopy = Console.ReadLine();
+                                CopyFile(fname, fnamecopy);
+                                break;
+                            case 2:
+                                Console.Write("write a place for Move --> ");
+                                string fnamemove = Console.ReadLine();
+                                MoveFile(fname, fnamemove);
+                                break;
+                        }
+                    }
+                    break;
+                case 2:
+                    Console.WriteLine("Enter (1) --> CopyFolder\nEnter (2) --> MoveFolder");
+                    int fo = int.Parse(Console.ReadLine());
+                    if (i != 1 && i != 2)
+                    {
+                        Console.WriteLine("error");
+                        break;
+                    }
+                    else
+                    {
+                        switch (fo)
+                        {
+                            case 1:
+                                Console.Write("Enetr name new folder --> ");
+                                string fonamecopy = Console.ReadLine();
+                                CopyFolder(foname, fonamecopy);
+                                break;
+                            case 2:
+                                Console.Write("write a place for Move --> ");
+                                string fonamemove = Console.ReadLine();
+                                MoveFolder(foname, fonamemove);
+                                break;
+                        }
+                    }
+                    break;
+            }
+        }
         Console.ReadKey();
 
     }
@@ -72,7 +136,8 @@
 
             foreach (var item in Directory.GetFiles(sourcFolder))
             {
-                Path.Combine(item, destFolder);
+                string newfo = Path.Combine(destFolder, Path.GetFileName(item));
+                File.Move(newfo, destFolder);
             }
         }
         catch (Exception ex)
