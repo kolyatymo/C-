@@ -107,19 +107,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31_practical", "31_practica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_task", "12_task\12_task.csproj", "{CE0110CD-7D75-41D4-9557-C3FDB557BE9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32_File Streams", "32_File Streams\32_File Streams.csproj", "{D22EAC7A-862E-42AB-B55D-D97D6171A6CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32_File Streams", "32_File Streams\32_File Streams.csproj", "{D22EAC7A-862E-42AB-B55D-D97D6171A6CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33_Binary_Writer_Reader", "33_Binary_Writer_Reader\33_Binary_Writer_Reader.csproj", "{05C6719B-951A-4AB8-ADEF-C7AFDB303133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "33_Binary_Writer_Reader", "33_Binary_Writer_Reader\33_Binary_Writer_Reader.csproj", "{05C6719B-951A-4AB8-ADEF-C7AFDB303133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_Stream_Write_Reader", "34_Stream_Write_Reader\34_Stream_Write_Reader.csproj", "{615CF3C0-541D-45D1-9DAB-DE0FA068B304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_Stream_Write_Reader", "34_Stream_Write_Reader\34_Stream_Write_Reader.csproj", "{615CF3C0-541D-45D1-9DAB-DE0FA068B304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34_practical", "34_practical\34_practical.csproj", "{E4247570-2E75-43BA-967A-F2F149A3D049}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "34_practical", "34_practical\34_practical.csproj", "{E4247570-2E75-43BA-967A-F2F149A3D049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35_XML_Serialization", "35_XML_Serialization\35_XML_Serialization.csproj", "{F6418671-CB53-42E9-AF19-E243663DCDD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "35_XML_Serialization", "35_XML_Serialization\35_XML_Serialization.csproj", "{F6418671-CB53-42E9-AF19-E243663DCDD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_JSON_Serialization", "36_JSON_Serialization\36_JSON_Serialization.csproj", "{0B0BA70A-5E35-4E1E-B38C-42F76332C3E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_JSON_Serialization", "36_JSON_Serialization\36_JSON_Serialization.csproj", "{0B0BA70A-5E35-4E1E-B38C-42F76332C3E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36_practical", "36_practical\36_practical.csproj", "{79C57C0B-58F0-4E1F-B633-FEE88C2BCEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "36_practical", "36_practical\36_practical.csproj", "{79C57C0B-58F0-4E1F-B633-FEE88C2BCEE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "37_File _Fileinfo", "37_File _Fileinfo\37_File _Fileinfo.csproj", "{62D4A57F-5580-4C04-971A-8DC8E89392BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "38_Directory_DirectoryInfo", "38_Directory_DirectoryInfo\38_Directory_DirectoryInfo.csproj", "{31A4C62F-0B52-497A-9881-8D31F4AF5246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_practical", "38_practical\38_practical.csproj", "{474A4BC2-3A9A-4090-8026-8D964E4CA601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -363,6 +369,18 @@ Global
 		{79C57C0B-58F0-4E1F-B633-FEE88C2BCEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C57C0B-58F0-4E1F-B633-FEE88C2BCEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C57C0B-58F0-4E1F-B633-FEE88C2BCEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D4A57F-5580-4C04-971A-8DC8E89392BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D4A57F-5580-4C04-971A-8DC8E89392BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D4A57F-5580-4C04-971A-8DC8E89392BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D4A57F-5580-4C04-971A-8DC8E89392BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A4C62F-0B52-497A-9881-8D31F4AF5246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A4C62F-0B52-497A-9881-8D31F4AF5246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A4C62F-0B52-497A-9881-8D31F4AF5246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A4C62F-0B52-497A-9881-8D31F4AF5246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474A4BC2-3A9A-4090-8026-8D964E4CA601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474A4BC2-3A9A-4090-8026-8D964E4CA601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474A4BC2-3A9A-4090-8026-8D964E4CA601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474A4BC2-3A9A-4090-8026-8D964E4CA601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

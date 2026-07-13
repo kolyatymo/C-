@@ -47,7 +47,7 @@ internal class Program
                 double totalusa = money * cu.Buy;
                 double totalcur = curs.Buy;
                 double total = totalusa / totalcur;
-                if (total >= 1.0)
+                if (total >= 0.0)
                 {
                     Console.WriteLine($"{money} {usa} You can exchange it for {total} {cur}");
                 }
