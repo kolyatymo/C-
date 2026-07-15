@@ -68,8 +68,5 @@ internal class Program
         Console.WriteLine(books.Select(b => b.Author).Contains("Байрон"));
         Console.WriteLine(books.FirstOrDefault(i => i.Year == 1993));
         Console.WriteLine(books.LastOrDefault(i => i.Year == 2002));
-
-
-
     }
 }
