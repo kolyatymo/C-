@@ -10,10 +10,16 @@ namespace FianalWork
     {
         public Machine Machinee { get; set; }
 
+
         public Admin(Machine machinee)
         {
             Machinee = machinee;
         }
+        public void DrinkAddedM(string Mess)
+        {
+            Console.WriteLine($"Admin notified about --> {Mess}");
+        }
+
         public void AddWater(int water)
         {
             Machinee.Ingredients.Water += water;
@@ -36,16 +42,16 @@ namespace FianalWork
         }
         public void Show()
         {
-            Console.WriteLine("_________Ingredients________");
+            Console.WriteLine($"\n_________Ingredients________");
             Console.WriteLine($"Water  --> {Machinee.Ingredients.Water}");
             Console.WriteLine($"Milk   --> {Machinee.Ingredients.Milk}");
             Console.WriteLine($"Coffee --> {Machinee.Ingredients.Coffee}");
             Console.WriteLine($"Ice    --> {Machinee.Ingredients.Ice}");
-            Console.WriteLine($"Sugar  --> {Machinee.Ingredients.Sugar}");
+            Console.WriteLine($"Sugar  --> {Machinee.Ingredients.Sugar}\n");
         }
         public void TakeMoney()
         {
-            Console.WriteLine($"money taken {Machinee.Money} UAH");
+            Console.WriteLine($"\nmoney taken {Machinee.Money} UAH\n");
             Machinee.Money = 0;
         }
     }

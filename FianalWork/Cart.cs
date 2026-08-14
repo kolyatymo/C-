@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FianalWork
 {
-    internal class Cart
+    public class Cart
     {
         public List<HotDrink> HotDrinks = new List<HotDrink>();
 
@@ -22,7 +22,9 @@ namespace FianalWork
 
         public void ShowCart()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("_______Cart______");
+            Console.ResetColor();
 
             foreach (var item in HotDrinks)
             {

@@ -12,7 +12,7 @@ namespace FianalWork
         public int MilkPercent { get; set; }
 
         public Espresso() {
-            Name = "Espresso";
+            Name = "3 --> Espresso";
             Price = 45;
             CoffeePercent = 100;
             MilkPercent = 0;

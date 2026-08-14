@@ -12,7 +12,7 @@ namespace FianalWork
         public int WaterPercent { get; set; }
         public BlackTea()
         {
-            Name = "Black Tea";
+            Name = "5 --> Black Tea";
             Price = 20;
             WaterPercent = 80;
             TypeTea = "Black";

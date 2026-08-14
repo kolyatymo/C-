@@ -19,11 +19,17 @@ namespace FianalWork
         {
             Ingredients = new Ingredients();
 
+            Ingredients.Water = 200;
+            Ingredients.Coffee = 20;
+            Ingredients.Milk = 200;
+            Ingredients.Sugar = 200;
+            Ingredients.Ice = 200;
+
             HotDrinks = new List<HotDrink>
             {
-                new Espresso(),
-                new Cappuccino(),
                 new Coffee(),
+                new Cappuccino(),
+                new Espresso(),
                 new GreanTea(),
                 new BlackTea()
             };

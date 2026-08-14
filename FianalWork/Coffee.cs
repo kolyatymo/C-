@@ -13,7 +13,7 @@ namespace FianalWork
 
         public Coffee()
         {
-            Name = "Coffee";
+            Name = "1 --> Coffee";
             Price = 35;
             CoffeePercent = 50;
             MilkPercent = 50;
