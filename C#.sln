@@ -153,6 +153,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_Pattern_factoryMethod", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "42_practical2", "42_practical2\42_practical2.csproj", "{6D1D2A4C-CD03-4AA4-AC9D-FB4A39C6F37F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalWorkExam", "FinalWorkExam\FinalWorkExam.csproj", "{5CF7D93B-B1AD-4CE7-AAAB-5D4409CD1565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -459,6 +461,10 @@ Global
 		{6D1D2A4C-CD03-4AA4-AC9D-FB4A39C6F37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D1D2A4C-CD03-4AA4-AC9D-FB4A39C6F37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D1D2A4C-CD03-4AA4-AC9D-FB4A39C6F37F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF7D93B-B1AD-4CE7-AAAB-5D4409CD1565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF7D93B-B1AD-4CE7-AAAB-5D4409CD1565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF7D93B-B1AD-4CE7-AAAB-5D4409CD1565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF7D93B-B1AD-4CE7-AAAB-5D4409CD1565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

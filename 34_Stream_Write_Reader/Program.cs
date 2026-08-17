@@ -22,6 +22,7 @@
 
         // 1 way
         Console.WriteLine($"Content RaedAllText :: {File.ReadAllText(fname)}"); // прочитати все в string
+
         // 2 way
         Console.WriteLine($"Content File.ReadAlllines \n"); // читає в масив
         var lines = File.ReadAllLines(fname);
