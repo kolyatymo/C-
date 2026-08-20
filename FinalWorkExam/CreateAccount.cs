@@ -6,56 +6,14 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-// TODO: 
-// - use enums
-// - Rename: started - start method, class Start to ...
-// create account class with CUrrentUser, Register, Login etc...
-
 namespace FinalWorkExam
 {
-    internal class Start
+    internal class CreateAccount
     {
         public static string CurrentUser { get; set; }
 
         string fname = "Exam.txt";
 
-        
-        public void Started()
-        {
-            Console.WriteLine($"1 --> Registration\n2 --> Login\n3 --> change password or date");
-            int i = int.Parse(Console.ReadLine());
-
-            switch (i)
-            {
-                case 1:
-                    Registration();
-                    break;
-                case 2:
-                    Login();
-                    break;
-                case 3:
-                    Console.WriteLine($"1 --> change password\n2 --> change date");
-                    int n = int.Parse(Console.ReadLine());
-                    switch(n)
-                    {
-                        case 1:
-                            ChangePassword();
-                            break;
-                        case 2:
-                            ChangeDate();
-                            break;
-                        default:
-                            Console.WriteLine("Error");
-                            break;
-                    }
-                    break;
-                default:
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("!!!Error!!!");
-                    Console.ResetColor();
-                    break;
-            }
-        }
         public void Registration()
         {
             Console.Write("Enter Email --> ");
@@ -73,7 +31,7 @@ namespace FinalWorkExam
             }
             Console.WriteLine("Email is correct");
 
-            if (File.Exists("Exam.txt"))
+            if (File.Exists(fname))
             {
                 foreach (string line in File.ReadAllLines("Exam.txt"))
                 {
@@ -103,6 +61,7 @@ namespace FinalWorkExam
             {
                 Console.WriteLine($"password --> {password}");
                 File.AppendAllText(fname, $"{email}^{password}^{birthDate}\n");
+                CurrentUser = email;
             }
             else
             {
@@ -193,6 +152,7 @@ namespace FinalWorkExam
             }
 
         }
+
         public void ChangePassword()
         {
             Console.Write("Enter Email --> ");
@@ -296,7 +256,6 @@ namespace FinalWorkExam
 
             }
         }
-
         public void ChangeDate()
         {
             Console.Write("Enter Email --> ");
@@ -354,9 +313,8 @@ namespace FinalWorkExam
 
                     File.WriteAllLines(fname, lines);
                 }
-                
+
             }
         }
     }
 }
-
