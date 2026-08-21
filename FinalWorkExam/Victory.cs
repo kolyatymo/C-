@@ -541,6 +541,85 @@
             }
         }
 
+
+        public void EditingVictory()
+        {
+            for (int i = 0; i < Quizes.Count; i++)
+            {
+                Console.WriteLine($"{i + 1} --> {Quizes[i].Title}");
+            }
+
+            Console.WriteLine("enter quiz");
+            int numberQiuz = int.Parse(Console.ReadLine());
+
+            var selectedQuizData = Quizes[numberQiuz - 1];
+
+            MyEnum.myEnum selectedQuiz = (MyEnum.myEnum)numberQiuz;
+
+
+            foreach (var item in Quizes)
+            {
+                if (item.Title == selectedQuiz.ToString())
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(item.Title);
+                    Console.ResetColor();
+                    int i = 1;
+                    foreach (var item1 in item.Questions)
+                    {
+                        Console.WriteLine($"\nQuestion --> {i}\n");
+
+                        Console.WriteLine(item1.queston);
+                        for (int j = 0; j < item1.answers.Length; j++)
+                        {
+                            Console.WriteLine($"{j + 1} --> {item1.answers[j]}");
+                        }
+                        i++;
+                    }
+                    Console.WriteLine("Which question should be changed?");
+                    
+                    int choice = int.Parse(Console.ReadLine());
+
+                    Console.Clear();
+
+                    Console.WriteLine("Write new Question");
+
+                    string NewQuestion = Console.ReadLine();
+
+                    item.Questions[choice - 1].queston = NewQuestion;
+
+                    Console.WriteLine($"Enter answers");
+
+                    string[] NewAnswers = new string[4];
+
+                    for (int j = 0; j < 4; j++)
+                    {
+                        Console.Write($"Enter answers {j + 1} --> ");
+                        NewAnswers[j] = Console.ReadLine();
+
+                    }
+
+                    item.Questions[choice - 1].answers = NewAnswers;
+
+                    Console.Write("How many correct answers? --> ");
+
+                    int countCorrect = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Enter correct answer indexes (1-4)");
+
+                    int[] CorrectAnswers = new int[countCorrect];
+
+                    for (int j = 0; j < countCorrect; j++)
+                    {
+                        Console.Write($"Correct answer {j + 1} --> ");
+                        CorrectAnswers[j] = int.Parse(Console.ReadLine());
+                    }
+
+                    item.Questions[choice - 1].correctIndexes = CorrectAnswers;
+                }
+            }
+        }
+
         public void Run()
         {
             string fileResultGeo = "resultGeo.txt";
@@ -574,7 +653,7 @@
                     int i = 1;
                     foreach (var item1 in item.Questions)
                     {
-                        Console.WriteLine($"Question --> {i}");
+                        Console.WriteLine($"\nQuestion --> {i}\n");
                         Console.WriteLine(item1.queston);
                         for (int j = 0; j < item1.answers.Length; j++)
                         {

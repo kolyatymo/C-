@@ -84,7 +84,7 @@
                         break;
 
                     case 4:
-                        Settings();
+                        Settings(victory);
                         break;
 
                     case 5:
@@ -156,7 +156,7 @@
                 }
             }
         }
-        private void Settings()
+        private void Settings(Victory victory)
         {
             CreateAccount account = new CreateAccount();
 
@@ -167,7 +167,8 @@
                 Console.WriteLine("----- SETTINGS _____\n");
                 Console.WriteLine("1 --> Change password");
                 Console.WriteLine("2 --> Change birth date");
-                Console.WriteLine("3 --> Back");
+                Console.WriteLine("3 --> Edit quiz");
+                Console.WriteLine("4 --> Back");
                 Console.Write("Choose --> ");
 
                 int choice = int.Parse(Console.ReadLine());
@@ -183,8 +184,11 @@
                         account.ChangeDate();
                         Console.ReadKey();
                         break;
-
                     case 3:
+                        victory.EditingVictory();
+                        break;
+
+                    case 4:
                         return;
 
                     default:
