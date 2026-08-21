@@ -26,10 +26,14 @@ namespace FinalWorkExam
             Match match = regex.Match(email);
             if (!match.Success)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Email --> {email} bad");
+                Console.ResetColor();
                 return;
             }
+            Console.ForegroundColor= ConsoleColor.Green;
             Console.WriteLine("Email is correct");
+            Console.ResetColor();
 
             if (File.Exists(fname))
             {
@@ -59,13 +63,17 @@ namespace FinalWorkExam
 
             if (success)
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"password --> {password}");
+                Console.ResetColor();
                 File.AppendAllText(fname, $"{email}^{password}^{birthDate}\n");
                 CurrentUser = email;
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"password {password} is bad");
+                Console.ResetColor();
             }
         }
 
@@ -92,7 +100,9 @@ namespace FinalWorkExam
 
             if (savedPassword == "")
             {
+                Console.ForegroundColor= ConsoleColor.Red;
                 Console.WriteLine($"this address {email} douse not exist");
+                Console.ResetColor();
                 return;
             }
 
@@ -123,17 +133,23 @@ namespace FinalWorkExam
                             bool success = Regex.IsMatch(passwordd, @".{6,}") && Regex.IsMatch(passwordd, @"[A-Z]+") && Regex.IsMatch(passwordd, @"[a-z]+") && Regex.IsMatch(passwordd, @"[0-9]+") && Regex.IsMatch(passwordd, @"[_-]+") && Regex.IsMatch(passwordd, @"[A-Z]+") && Regex.IsMatch(passwordd, @"^[A-Za-z0-9_-]+$");
                             if (success)
                             {
+                                Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine($"password --> {passwordd}");
+                                Console.ResetColor();
                                 File.AppendAllText(fname, $"{email}^{passwordd}^\n");
                             }
                             else
                             {
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine($"password {passwordd} is bad");
+                                Console.ResetColor();
                             }
                             break;
 
                         case 2:
+                            Console.ForegroundColor= ConsoleColor.Red;
                             Console.WriteLine("You need to register");
+                            Console.ResetColor();
                             Registration();
                             break;
 
@@ -176,7 +192,9 @@ namespace FinalWorkExam
 
             if (savedPassword == "")
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"this address {email} douse not exist");
+                Console.ResetColor();
                 return;
             }
 
@@ -207,17 +225,23 @@ namespace FinalWorkExam
                             bool success = Regex.IsMatch(passwordd, @".{6,}") && Regex.IsMatch(passwordd, @"[A-Z]+") && Regex.IsMatch(passwordd, @"[a-z]+") && Regex.IsMatch(passwordd, @"[0-9]+") && Regex.IsMatch(passwordd, @"[_-]+") && Regex.IsMatch(passwordd, @"[A-Z]+") && Regex.IsMatch(passwordd, @"^[A-Za-z0-9_-]+$");
                             if (success)
                             {
+                                Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine($"password --> {passwordd}");
+                                Console.ResetColor();
                                 File.AppendAllText(fname, $"{email}^{passwordd}^\n");
                             }
                             else
                             {
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine($"password {passwordd} is bad");
+                                Console.ResetColor();
                             }
                             break;
 
                         case 2:
+                            Console.ForegroundColor= ConsoleColor.Red;
                             Console.WriteLine("You need to register");
+                            Console.ResetColor();
                             Registration();
                             break;
 
@@ -231,7 +255,9 @@ namespace FinalWorkExam
                     bool success = Regex.IsMatch(passwordnew, @".{6,}") && Regex.IsMatch(passwordnew, @"[A-Z]+") && Regex.IsMatch(passwordnew, @"[a-z]+") && Regex.IsMatch(passwordnew, @"[0-9]+") && Regex.IsMatch(passwordnew, @"[_-]+") && Regex.IsMatch(passwordnew, @"[A-Z]+") && Regex.IsMatch(passwordnew, @"^[A-Za-z0-9_-]+$");
                     if (success)
                     {
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"password --> {passwordnew}");
+                        Console.ResetColor();
                         string[] lines = File.ReadAllLines(fname);
 
                         for (int i = 0; i < lines.Length; i++)
